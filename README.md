@@ -1,4 +1,4 @@
-# Wafer2 微信小游戏快速开发 Demo - PHP
+# Wafer2 微信小游戏快速开发 Demo - Nodejs
 
 本仓库是最简版的 Wafer2 开发套件，建议配合腾讯云微信小程序（游戏）开发者工具解决方案一起使用。适用于想要使用 Wafer SDK 开发的开发者，Demo 对 SDK 进行了详细的使用和介绍，降低开发者的学习成本。
 
@@ -30,20 +30,20 @@
 
 下载并安装最新版本的[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)，使用小程序绑定的微信号扫码登录开发者工具。
 
-![微信开发者工具](https://mc.qcloudimg.com/static/img/4fd45bb5c74eed92b031fbebf8600bd2/1.png)
+![微信开发者工具](https://main.qcloudimg.com/raw/bb57ee98c4ab67864303416fe9ab87f3.jpg)
 
 ### 三、下载 Demo
 
-你可以通过两个途径访问 Github 上 `wafer2-quickstart-php` 项目下载 Demo 代码：
+你可以通过两个途径访问 Github 上 `wafer2-game-quickstart-nodejs` 项目下载 Demo 代码：
 
-1. 访问[仓库主页](https://github.com/tencentyun/wafer2-game-quickstart-nodejs.git)，单机 `clone or download` 按钮，再单击 `Download ZIP` 下载打包好的 Demo 代码：
+1. 访问[仓库主页](https://github.com/pxunl/wafer2-game-quickstart-nodejs.git)，单机 `clone or download` 按钮，再单击 `Download ZIP` 下载打包好的 Demo 代码：
 
    ![下载代码](https://mc.qcloudimg.com/static/img/5b589d4ef12202175304e7c47a920235/11.png)
 
 2. 通过 git clone 下载代码：
 
    ```bash
-   git clone https://github.com/tencentyun/wafer2-game-quickstart-nodejs.git
+   git clone https://github.com/pxunl/wafer2-game-quickstart-nodejs.git
    ```
 
 ### 四、上传和部署代码
@@ -54,15 +54,15 @@
 
   > **注意：** 
   >
-  > 目录请选择 `quickstart` 根目录。包含有 `project.config.json`，请不要只选择 `client` 目录！
+  > 目录请选择 `wafer2-game-quickstart-nodejs` 根目录。包含有 `project.config.json`，请不要只选择 `client` 目录！
 
-  ![上传代码](https://mc.qcloudimg.com/static/img/d5f3a4d68d4405b5a3a41f0e45bebc9c/2.png)
+  ![上传代码](https://main.qcloudimg.com/raw/1c00c367989a6ee5d094427d5bc4ccf2.png)
 
-  ![开发者工具](https://mc.qcloudimg.com/static/img/dddafb0f88489d0de7010321e6b48071/3.png)
+  ![开发者工具](https://main.qcloudimg.com/raw/5d4ab9c8ba7a678f93df0a841d8b31af.jpg)
 
-4. 打开 Demo 代码中 `server` 目录下的 `config.php` 文件，将其中的 `mysql` 配置项的密码 `pass` 改成你的微信小程序(游戏) AppID，并**保存**。
+4. 打开 Demo 代码中 `server` 目录下的 `config.js` 文件，将其中的 `mysql` 配置项的密码 `pass` 改成你的微信小程序(游戏) AppID，并**保存**。
 
-  ![修改 MySQL 密码](https://mc.qcloudimg.com/static/img/64ec8f25eec2e9ac74838960a25cbb82/musql_passwd.png)
+  ![修改 MySQL 密码](https://main.qcloudimg.com/raw/846bae43fb4e5346de703a9c292349f7.png)
 
 5. 点击界面右上角的【腾讯云】图标，在下拉的菜单栏中选择【上传测试代码】。
 
